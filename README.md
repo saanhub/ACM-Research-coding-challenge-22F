@@ -4,7 +4,7 @@
 
 Analysing and visually graphing the number of cars sold per year and noting the top car manufacturers along with value for money rating to predict pricing potential.   
 
-APPROACH:
+<b>APPROACH:</b>
 
 1. Firstly, I imported multiple modules to integrate the CarsForSale database with python. Imported modules: numpy, pandas, os, matplotlib.pyplot and operator.
 2. I made induvidual functions to generate a scatterplot, bar graph and pie chart to analyse isolated parts of the data.
@@ -21,6 +21,6 @@ APPROACH:
 ![image](https://user-images.githubusercontent.com/112913549/188533694-c10885d2-7139-413f-8072-e1244cc864a4.png)
 
 
-OBSERVATION AND FUTURE STEPS:
+<b>OBSERVATION AND FUTURE STEPS:</b>
 
 After a preliminary analysis, we can say that the amount of data provided may be used to draw logical conclusions from the years 2010-2020, provided that more data can be recorded from the years that are missing it. Additionally, predictive analysis is a possiblity from the data provided in the CarForSale file. With further clean data, a machine learning model can be made in order to predict future pricing and customer satisfaction based on purchases and customer reviews. 
