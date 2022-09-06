@@ -1,50 +1,18 @@
-# ACM Research coding challenge (Fall 2022)
+# ACM Research coding challenge (Fall 2022) : Analysis of cars sold per year and top car makers
 
-Note: if it's getting down to the deadline (September 5th at 11:59 CT) and you don't think you will be able to submit your project on time, just [submit](http://apply.acmutd.co/research-coding-challenge) whatever you have!
+PROBLEM STATEMENT AND INTENT:
+Analysing and visually graphing the number of cars sold per year and noting the top car manufacturers along with value for money rating to predict pricing potential.   
 
-This semester's challenge is especially open-ended. [Here is a dataset](https://www.kaggle.com/datasets/chancev/carsforsale) on Kaggle called "CarsForSale". It contains data scraped from the online car marketplace Cars.com. Each row contains 25 pieces of information about a car's listing, such as its price, year, model, and color.
+APPROACH:
 
-The challenge is to do *something interesting* with the data. Can you find a pattern, answer a question, or create a visualization? In case nothing comes to mind, here are some ideas, with varying complexity:
+1. Firstly, I imported multiple modules to integrate the CarsForSale database with python. Imported modules: numpy, pandas, os, matplotlib.pyplot and operator.
+2. I made induvidual functions to generate a scatterplot, bar graph and pie chart to analyse isolated parts of the data.
+3. The scatterplot describes the value for money rating for the purchased cars over the years as contained in the CarsForSale data set. As seen in the scatterplot, the number of outliers in the data has increased over the years. This may be due to lower general satisfaction of customer purchases or may even be a result of a lack of data in years before 2010.
+4. The generated bar graph describes the number of cars sold per year and explains the sales trend from 2001-2022. As we can infer from the graph, an increase of sales has occured after 2010. This may be due to the fact that cars after 2010 became more of a necessity or the fact that new cars became more expensive to purchase by the general consumer. Preowned car sales peaked exponentially in 2019 but fell drastically low in 2020. This may have been due to external factors including the pandemic or the rise of smart cars and the shortage of silicon based microchips.
+5. Lastly, the the generated pie chart further explains the distribution of sales from the top 5 companies in the market. Here we can see that the most market share in the preowned cars sector is from BMW. However, the data provided seems to provide an inconclusive inference due to the market sales being extremely close and within a margin of error of 2% from each other. By having more clean and reliable data perhaps a more conclusive result can be produced.
 
-- What qualities about a car do buyers seem to value the most?
-- Make a graph to visualize the most popular car models over time.
-- What colors of cars are most expensive?
-- Do different brands try to appeal to people looking for different things?
-- Come up with your own algorithm to figure out how good of a deal a listing is and compare it to the one in the dataset (`DealType`).
-- Use [cluster analysis](https://en.wikipedia.org/wiki/Cluster_analysis) to group the cars into categories.
-- How do people's taste in cars differ between states?
-- Train a machine learning model to predict some aspect of a car based on other information from its listing.
+CONCLUSION: 
+After a preliminary analysis of key parts of the data, we can say that the amount of data provided may be used to draw logical conclusions from the years 2010-2020. However, the dates before and after these years are based off of insuffient data and cannot be reliably used to draw a more in depth a anlysis.
 
-However, we strongly encourage you to come up with your own problem to solve!
-
-You can use any programming language, framework, or library you want, but we recommend [creating a notebook in Kaggle](https://www.kaggle.com/docs/notebooks) and using Python. This will run in your browser, interlaces code with documentation, allows you to import the CarsForSale dataset easily by pressing the "Add data" button, and gives you access to Python's high-quality, high-level libraries for working with data. [Learn more about data science in Python.](https://www.w3schools.com/datascience/ds_python.asp)
-
-## How to submit your solution
-
-1. [Create a **public** fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of this repository and name it  `ACM-Research-coding-challenge-22F` (click the "Fork" button in the top right).
-
-2. Replace this README file with a description ([written in Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)) of your solution. Regardless of your success, describe the problem you set out to solve and how you did it. Split it up into sections with headers, and, if relevant, include figures.
-
-3. Make sure to include all relevant files in your fork. If you made the project in a Kaggle notebook, click **File** → **Download Notebook** to download it as an `.ipynb` file.
-
-4. You may have to "clone" the fork you made to edit files locally on your computer and "push" them to GitHub. Learn how to do that [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-
-4. Submit the link to your fork in this [form](http://apply.acmutd.co/research-coding-challenge).
-
-## No collaboration policy
-
-**You may not collaborate with anyone on this challenge.** You _are_ allowed (and encouraged) to use internet documentation. If you use existing code (either from Github, Stack Overflow, or other sources), **please cite your sources in the README**.
-
-## Timing
-
-Please don't spend too long on this project: **30 to 60 minutes** is reasonable. It's okay to put more time into your submission than that, but we don't expect you to get that much done; we really don't want this challenge to be a burden!
-
-If you're *completely new* to this kind of project, however, it will likely take you more than an hour. This is a *densely useful* project to go through (you will learn a lot), so we believe this is justified.
-
-## Assessment criteria
-
-Submissions will be evaluated holistically, in combination with the rest of your application. We will consider your effort, use of external resources, how you approached the problem, and presentation, among other considerations.
-
-## Support and questions
-
-Feel free to ask for clarifications in the #research-qna channel in the [ACM UTD Discord server](https://discord.gg/nJxRdKdG4d)! You can also directly message Roman Hauksson on Discord: `RomanHauksson#3458`.
+FUTURE STEPS:
+After a preliminary analysis, we can say that the amount of data provided may be used to draw logical conclusions from the years 2010-2020, provided that more data can be recorded from the years that are missing it. Additionally, predictive analysis is a possiblity from the data provided in the CarForSale file. With further clean data, a machine learning model can be made in order to predict future pricing and customer satisfaction based on purchases and customer reviews. 
