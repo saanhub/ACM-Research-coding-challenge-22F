@@ -1,6 +1,6 @@
 # ACM Research coding challenge (Fall 2022) : Analysis of cars sold per year and top car makers
 
-PROBLEM STATEMENT AND INTENT:
+<b>PROBLEM STATEMENT AND INTENT:</b>
 
 Analysing and visually graphing the number of cars sold per year and noting the top car manufacturers along with value for money rating to predict pricing potential.   
 
