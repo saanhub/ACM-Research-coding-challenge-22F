@@ -9,10 +9,17 @@ APPROACH:
 1. Firstly, I imported multiple modules to integrate the CarsForSale database with python. Imported modules: numpy, pandas, os, matplotlib.pyplot and operator.
 2. I made induvidual functions to generate a scatterplot, bar graph and pie chart to analyse isolated parts of the data.
 3. The scatterplot describes the value for money rating for the purchased cars over the years as contained in the CarsForSale data set. As seen in the scatterplot, the number of outliers in the data has increased over the years. This may be due to lower general satisfaction of customer purchases or may even be a result of a lack of data in years before 2010.
+
 ![image](https://user-images.githubusercontent.com/112913549/188533536-971b0dbd-1a30-4a1b-9c93-4b37a5a9607a.png)
 
-5. The generated bar graph describes the number of cars sold per year and explains the sales trend from 2001-2022. As we can infer from the graph, an increase of sales has occured after 2010. This may be due to the fact that cars after 2010 became more of a necessity or the fact that new cars became more expensive to purchase by the general consumer. Preowned car sales peaked exponentially in 2019 but fell drastically low in 2020. This may have been due to external factors including the pandemic or the rise of smart cars and the shortage of silicon based microchips.
-6. Lastly, the the generated pie chart further explains the distribution of sales from the top 5 companies in the market. Here we can see that the most market share in the preowned cars sector is from BMW. However, the data provided seems to provide an inconclusive inference due to the market sales being extremely close and within a margin of error of 2% from each other. By having more clean and reliable data perhaps a more conclusive result can be produced.
+4. The generated bar graph describes the number of cars sold per year and explains the sales trend from 2001-2022. As we can infer from the graph, an increase of sales has occured after 2010. This may be due to the fact that cars after 2010 became more of a necessity or the fact that new cars became more expensive to purchase by the general consumer. Preowned car sales peaked exponentially in 2019 but fell drastically low in 2020. This may have been due to external factors including the pandemic or the rise of smart cars and the shortage of silicon based microchips.
+
+![image](https://user-images.githubusercontent.com/112913549/188533629-ae3bdfdd-92aa-46ac-8779-45e7442fd16f.png)
+
+5. Lastly, the the generated pie chart further explains the distribution of sales from the top 5 companies in the market. Here we can see that the most market share in the preowned cars sector is from BMW. However, the data provided seems to provide an inconclusive inference due to the market sales being extremely close and within a margin of error of 2% from each other. By having more clean and reliable data perhaps a more conclusive result can be produced.
+
+![image](https://user-images.githubusercontent.com/112913549/188533694-c10885d2-7139-413f-8072-e1244cc864a4.png)
+
 
 OBSERVATION AND FUTURE STEPS:
 
